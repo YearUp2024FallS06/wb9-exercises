@@ -61,7 +61,6 @@ public class JdbcCategoryDao implements CategoryDao {
                 FROM categories
                 WHERE CategoryId = ?;""";
 
-
         try(Connection connection = dataSource.getConnection();
             PreparedStatement query = connection.prepareStatement(sql);
            )

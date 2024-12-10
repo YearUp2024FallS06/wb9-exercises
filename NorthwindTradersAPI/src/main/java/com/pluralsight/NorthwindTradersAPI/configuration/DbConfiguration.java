@@ -16,7 +16,7 @@ public class DbConfiguration {
     public DataSource dataSource(){
         return basicDataSource;
     }
-    
+
     public DbConfiguration(
             @Value("${datasource.url}") String url,
             @Value("${datasource.username}") String username,

@@ -65,6 +65,8 @@ public class NorthwindApplication implements CommandLineRunner {
 
         productDao.add(p1);
 
+        System.out.println("Added product: \n" + p1);
+
     }
 
 
